@@ -1,0 +1,60 @@
+/* Styl dla całego body, ustalamy domyślne tło i kolor tekstu */
+body {
+    background-color: #f0f0f0;
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+
+/* Styl dla kontenera z listą zadań */
+.task-list {
+    width: 60%;
+    margin: 2em auto;
+    padding: 1em;
+    background-color: white;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.15);
+}
+
+/* Styl dla formularza do dodawania nowych zadań */
+.task-form {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2em;
+}
+
+/* Styl dla pola tekstowego w formularzu */
+.task-form input[type="text"] {
+    flex-grow: 1;
+    padding: 0.5em;
+    margin-right: 1em;
+    border: 1px solid #ddd;
+}
+
+/* Styl dla przycisku w formularzu */
+.task-form button {
+    padding: 0.5em 1em;
+    color: white;
+    background-color: #5cb85c;
+    border: none;
+    cursor: pointer;
+}
+
+/* Styl dla przycisku "Usuń" przy każdym zadaniu */
+.delete-button {
+    color: white;
+    background-color: #d9534f;
+    border: none;
+    cursor: pointer;
+}
+
+/* Styl dla przycisku "Edytuj" przy każdym zadaniu */
+.edit-button {
+    color: white;
+    background-color: #f0ad4e;
+    border: none;
+    cursor: pointer;
+}
+
+/* Styl dla zadania, które zostało zaznaczone jako wykonane */
+.task-completed {
+    text-decoration: line-through;
+}

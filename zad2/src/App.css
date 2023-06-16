@@ -1,0 +1,75 @@
+/* Styl dla body, ustalamy domyślne tło i kolor tekstu */
+body {
+    background-color: #f0f0f0;
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+
+/* Styl dla kontenera z listą wyników z API */
+.api-results {
+    width: 80%;
+    margin: 2em auto;
+    padding: 1em;
+    background-color: white;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.15);
+}
+
+/* Styl dla pojedynczego elementu wyników z API */
+.api-result-item {
+    border-bottom: 1px solid #ddd;
+    padding: 1em 0;
+}
+
+.api-result-item:last-child {
+    border-bottom: none;
+}
+
+/* Styl dla nagłówka elementu wyników z API */
+.api-result-item h2 {
+    margin: 0;
+    margin-bottom: 0.5em;
+}
+
+/* Styl dla linku do widoku szczegółowego */
+.api-result-item a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.api-result-item a:hover {
+    color: #0056b3;
+}
+
+/* Styl dla kontenera z widokiem szczegółowym */
+.api-details {
+    width: 60%;
+    margin: 2em auto;
+    padding: 1em;
+    background-color: white;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.15);
+}
+
+/* Styl dla nagłówka w widoku szczegółowym */
+.api-details h1 {
+    margin: 0;
+    margin-bottom: 1em;
+}
+
+/* Styl dla przycisku powrotu do strony głównej */
+.back-button {
+    padding: 0.5em 1em;
+    color: white;
+    background-color: #5cb85c;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.back-button:hover {
+    background-color: #449d44;
+}
+
+/* Styl dla komunikatu o błędzie */
+.error-message {
+    color: #d9534f;
+}
